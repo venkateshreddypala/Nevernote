@@ -1,0 +1,3 @@
+#!/bin/sh
+mvn clean package && docker build -t vrpala17/NeverNote .
+docker rm -f NeverNote 2>/dev/null || true && docker run -it --name NeverNote -p 8080:8080 -p 4848:4848 -p 8181:8181 --name NeverNote vrpala17/NeverNote
