@@ -91,7 +91,7 @@ Example model outputs the following using GET method
 > Base URI: http://localhost:8080/
 
 ## Built With
-* [Java] (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)- Java Platform
+* [Java] (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) - Java Platform
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [Mongo](https://www.mongodb.com/)- NoSQL Database
 * [Postman](https://www.getpostman.com/)- HTTP client to test the REST calls
