@@ -1,6 +1,6 @@
 # NeverNote
 
-This is a take home assignment by KNIME located at Austin TX. 
+This is a take home assignment by KNIME. The project requirements were provided by KNIME. KNIME is an analytics platform located in Austin TX.
 
 This is a RESTAPI service to perform CRUD operations on a given note. Every note is a private resource to user who creates it and can perform Create, Update, Read or Delete. 
 
@@ -50,7 +50,6 @@ Use postman to test the rest end points
 Example Model to create a new notebook using POST method and then use GET method to see the contents:
 
 ```
-
 {
   "name": "string"
   "description": "string",
@@ -64,7 +63,7 @@ This API also provides the following resources mapped to the respective HTTP met
 - GET	/notes/{noteName}/notes	To get all the notes associated to the specified notebook
 - GET	/notes/{noteName}/{tag}	Given a notebook, get filtered list of notes that contain the given tag string
 - PUT	/notes/{noteName}/notes/{title}	To update a specific note associated with the given notebook
-- DELETE	/notes/{noteName}/notes/{title}	To delete a specific note associated with the given notebook
+- DELETE /notes/{noteName}/notes/{title}	To delete a specific note associated with the given notebook
 ```
 
 Example model to create a POST method  
